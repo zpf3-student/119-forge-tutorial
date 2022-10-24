@@ -35,9 +35,14 @@ public class TutorialMain
     {
         MinecraftForge.EVENT_BUS.register(CommandInit.class);
     }
-//    @SubscribeEvent
-//    public void onCommandRegister(final RegisterCommandsEvent event)
-//    {
-//        CommandInit.registerModCommands(event);
-//    }
+    
+    
+/*
+    // alternate way to register commands
+    @SubscribeEvent
+    public void onCommandRegister(final RegisterCommandsEvent event)
+    {
+        CommandInit.registerModCommands(event);
+    }
+*/
 }
